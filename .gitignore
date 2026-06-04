@@ -1,0 +1,27 @@
+# Vivado generated files — large and can be regenerated
+*.jou
+*.log
+*.str
+*.mcs
+*.prm
+
+# Vivado project cache and runs (regeneratable)
+vivado/.Xil/
+vivado/**/runs/
+vivado/**/.cache/
+vivado/**/.srcs/
+vivado/**/synth_1/
+vivado/**/impl_1/
+
+# Bitstream (large binary — optional to exclude; remove this line if you want to share it)
+*.bit
+*.bin
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
